@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd nuspec.xsd">
+    <metadata>
+        <owners>Bertram Fey</owners>
+        <id>ucichess-engine-plentychess</id>
+        <version>%%VERSION%%</version>
+        <title>PlentyChess Engine</title>
+        <authors>The PlentyChess Authors</authors>
+        <summary>
+            A strong UCI chess engine with a neural network based evaluation.
+        </summary>
+        <description>
+            PlentyChess is a very strong UCI chess engine using an efficiently updated neural network (NNUE) for evaluation.
+            The network is trained on 4.8 billion self-generated standard chess positions, using self-distillation techniques for part of the training, and bullet as the training library.
+        </description>
+        <projectUrl>https://github.com/Yoshie2000/PlentyChess</projectUrl>
+        <licenseUrl>https://github.com/Yoshie2000/PlentyChess/blob/main/LICENSE</licenseUrl>
+        <tags>uci chess</tags>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools"/>
+    </files>
+</package>
