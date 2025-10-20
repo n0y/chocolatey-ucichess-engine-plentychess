@@ -16,7 +16,9 @@
             The network is trained on 4.8 billion self-generated standard chess positions, using self-distillation techniques for part of the training, and bullet as the training library.
         </description>
         <projectUrl>https://github.com/Yoshie2000/PlentyChess</projectUrl>
+        <releaseNotes>https://github.com/Yoshie2000/PlentyChess/releases</releaseNotes>
         <licenseUrl>https://github.com/Yoshie2000/PlentyChess/blob/main/LICENSE</licenseUrl>
+        <packageSourceUrl>https://github.com/n0y/chocolatey-ucichess-engine-plentychess</packageSourceUrl>
         <tags>uci chess</tags>
     </metadata>
     <files>
